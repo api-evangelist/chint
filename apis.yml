@@ -1,8 +1,29 @@
 aid: chint
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chint.png
 name: CHINT
-description: 'CHINT is a company surfaced as a portfolio company of hongshan and added to the API Evangelist
-  network as a stub for enrichment. Sector: technology. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  CHINT (Chint Group) is a global smart-energy and intelligent-electrical
+  solutions provider founded in 1984 and headquartered in Wenzhou, China, with
+  operations across more than 140 countries. Its portfolio spans low-voltage
+  electrical equipment (IEC and UL), power transmission and distribution
+  systems, switchgear, instruments and meters, EV charging, and clean-energy
+  systems including solar PV and battery storage, serving power utilities,
+  buildings, telecom and data centers, industrial, and OEM sectors. CHINT does
+  not currently publish a public developer API, OpenAPI definition, or developer
+  portal; this profile captures the company identity and its public web
+  properties. Added to the API Evangelist network as a portfolio company of
+  Hongshan (HongShan / former Sequoia China).
 url: https://raw.githubusercontent.com/api-evangelist/chint/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +33,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Technology
+- Energy
+- Electrical Equipment
+- Smart Energy
+- Solar
+- Clean Energy
+- EV Charging
+- Manufacturing
+- Industrial
 apis: []
+common:
+- type: DomainSecurity
+  url: security/chint-domain-security.yml
+- type: Website
+  url: https://www.chintglobal.com/global/en/index.html
+- type: Blog
+  url: https://www.chintglobal.com/global/en/about-us/news-center/blog.html
+- type: PrivacyPolicy
+  url: https://www.chintglobal.com/global/en/about-us/privacy-policy.html
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

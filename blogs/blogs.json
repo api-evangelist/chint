@@ -1,0 +1,11 @@
+{
+  "repo": "chint",
+  "feeds": [
+    {
+      "source": "https://www.chintglobal.com/global/en/index.html",
+      "error": "HTTPError"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-20T13:31:34Z"
+}
